@@ -23,7 +23,7 @@ $(document).ready(function(){
 		next = $('.next'),
 		flag = 0,
 		amount = (member.length)/6,
-		pages = $('.pagination');
+		pages = $('.pager');
 		console.log(amount);
 	next.bind('click',function(){
 		

@@ -2,8 +2,8 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		
-		<title>合作伙伴</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>新闻动态</title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<!-- <link rel="stylesheet" type="text/css" href="css/css.css"> -->
 		<link rel="stylesheet" type="text/css" href="css/css2.css">
@@ -48,7 +48,7 @@
 		            <span class="icon-bar"></span>
 		          </button>
 		        </div>
-		         <div id="navbar" class="navbar-collapse collapse">
+		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav">
 		            <li><a href="index.html">首页</a></li>
 		            <li class="dropdown">
@@ -59,8 +59,8 @@
 		                <li><a href="zhuanye.html">专业委员会</a></li>
 		              </ul>
 		            </li>
-		            <li><a href="hangye.html">行业动态</a></li>
-		            <li class="dropdown active">
+		            <li class=""><a href="hangye.html">行业动态</a></li>
+		            <li class="dropdown">
 		              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">合作交流 <span class="caret"></span></a>
 		              <ul class="dropdown-menu">
 		                <li><a href="jiaoliu.html">交流活动</a></li>
@@ -77,7 +77,8 @@
 		                <li><a href="xuesheng.html">优秀学生</a></li>
 		              </ul>
 		            </li>
-		             <li><a href="xinwen.html">新闻动态</a></li>
+		             <li class="active"><a href="#">新闻动态</a></li>
+		            
 		          </ul>
 		          <!-- <ul class="nav navbar-nav navbar-right">
 		            <li><a href="#">意见反馈<span class="sr-only"></span></a></li>
@@ -89,94 +90,135 @@
     	</nav>
 	
 		<!--主要内容-->
-		
-	<div class="container cooperate">	
-		<div class="breadcrumb">
-			<ul>
-				<li>合作交流 &gt;</li>
-				<li>合作伙伴</li>
-			</ul>
-		</div>
-		<div class="row">
-			<div class="cooperate_wrapper cooperate_wrapper2">
-				<div class="cooperate_partner col-md-4">
-					<h1>微软公司</h1>
-					<p>微软，是一家总部位于美国的跨国科技公司，是世界PC（Personal Computer，个人计算机）机软件开发的先导，由比尔·盖茨与保罗·艾伦创办于1975年，公司总部设立在华盛顿州的雷德蒙德（Redmond，邻近西雅图）。以研发、制造、授权和提供广泛的电脑软件服务业务为主。</p>
+	<!--轮播图部分-->
+		<div class="news_banner">
+			<div id="myCarousel" class="carousel slide">
+				<!-- 轮播（Carousel）指标 -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+				<!-- 轮播（Carousel）项目 -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="img/download.jpg" alt="First slide">
+						<div class="container">
+				            <div class="carousel-caption">
+				              <h1>Example headline.</h1>
+				              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+				              <p><a class="btn btn-lg btn-primary" href="#" role="button">More</a></p>
+				            </div>
+				        </div>
+					</div>
+					<div class="item">
+						<img src="img/info.jpg" alt="Second slide">
+						<div class="container">
+				            <div class="carousel-caption">
+				              <h1>Example headline.</h1>
+				              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+				              <p><a class="btn btn-lg btn-primary" href="#" role="button">More</a></p>
+				            </div>
+				        </div>
+					</div>
+					<div class="item">
+						<img src="img/work.jpg" alt="Third slide">
+						<div class="container">
+				            <div class="carousel-caption">
+				              <h1>Example headline.</h1>
+				              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+				              <p><a class="btn btn-lg btn-primary" href="#" role="button">More</a></p>
+				            </div>
+				        </div>
+					</div>
 				</div>
-				<div class="cooperate_map col-md-8">
-					<img src="img/1.jpg" alt="">
-				</div>
+				<!-- 轮播（Carousel）导航 -->
+				<a class="carousel-control left" href="#myCarousel" data-slide="prev"></a>
+				<a class="carousel-control right" href="#myCarousel" data-slide="next"></a>
 			</div>
 		</div>
-		
+	<div class="container cooperate xinwen">	
+		<!-- <div class="breadcrumb">
+			<ul>
+				<li>新闻动态</li>
+			</ul>
+		</div>	 -->
+		<!-- <div class="row">
+			<div class="cooperate_wrapper cooperate_bg" style="background:url(img/3.jpg) no-repeat;background-size:cover;">
+				<h1>新闻动态</h1>
+				<p>华东交通大学是一所以工为主、以交通运输为特色的教学研究型大学。1971年,全国教育工作会议提出,将上海交通大学内燃机车等3个专业以及同济大学铁道工程专业调入上海铁道</p>
+			</div>
+		</div> -->
 		<div class="row">
-	        <div class="col-md-4 col-sm-6 col-xs-12 scale work_1">
+			<h1>新闻资讯</h1>
+	        <div class="col-sm-4 col-xs-12 scale work_1">
 	        	<a href="">
-		        		<div class="pic hidden-xs"><img src="img/unknow.jpg" /></div>
+	        		<div class="pic"><img src="img/3.jpg" /></div>
 			        <div class="wrapper">
-			          <h2 class="overflow">网页开发</h2>
-			          <p class="district"><span>地区:</span>北京</p>
-			          <p class="time"><span>时间:</span>2016年1月10日</p>
-			          <p class="info"><span>XX:</span>内容:栉风沐雨谋发展，团结奋斗谱新篇。华东交通大学秉承“日新其德，止于至善</p>
+			          <h2 class="overflow">交大活动</h2>
 			        </div>
 	        	</a>
 	      	</div>
-	        <div class="col-md-4 col-sm-6 col-xs-12 scale work_1">
+	        <div class="col-sm-4 col-xs-12 scale work_1">
 	        	<a href="">
-		        		<div class="pic hidden-xs"><img src="img/hezuo5.jpg" /></div>
+	        		<div class="pic"><img src="img/unknow.jpg" /></div>
 			        <div class="wrapper">
-			          <h2 class="overflow">安卓开发</h2>
-			          <p class="district"><span>地区:</span>北京</p>
-			          <p class="time"><span>时间:</span>2016年1月10日</p>
-			          <p class="info"><span>XX:</span>内容:栉风沐雨谋发展，团结奋斗谱新篇。华东交通大学秉承“日新其德，止于至善</p>
+			          <h2 class="overflow">研究型大学</h2>
 			        </div>
 	        	</a>
 	      	</div>
-	      	<div class="col-md-4 col-sm-6 col-xs-12 scale work_1">
+	      	<div class="col-sm-4 col-xs-12 scale work_1">
 	        	<a href="">
-		        		<div class="pic hidden-xs"><img src="img/hezuo6.jpg" /></div>
+	        		<div class="pic"><img src="img/info.jpg" /></div>
 			        <div class="wrapper">
-			          <h2 class="overflow">IOS开发</h2>
-			          <p class="district"><span>地区:</span>北京</p>
-			          <p class="time"><span>时间:</span>2016年1月10日</p>
-			          <p class="info"><span>内容:</span>栉风沐雨谋发展，团结奋斗谱新篇。华东交通大学秉承“日新其德，止于至善</p>
+			          <h2 class="overflow">上海交通大学内燃机车</h2>
 			        </div>
 	        	</a>
 	      	</div>
-	      	<div class="col-md-4 col-sm-6 col-xs-12 scale work_1">
+			<div class="cooperate_wrapper cooperate_bg col-xs-12">
+				<h1>新闻</h1>
+				<p>华东交通大学是一所以工为主、以交通运输为特色的教学研究型大学。1971年,全国教育工作会议提出,将上海交通大学内燃机车等3个专业以及同济大学铁道工程专业调入上海铁道</p>
+			</div>
+	      	<div class="col-md-3 col-sm-6 col-xs-12 scale">
 	        	<a href="">
-		        		<div class="pic hidden-xs"><img src="img/hezuo4.jpg" /></div>
+	        		<div class="pic"><img src="img/download.jpg" /></div>
 			        <div class="wrapper">
-			          <h2 class="overflow">后台</h2>
-			          <p class="district"><span>地区:</span>北京</p>
-			          <p class="time"><span>时间:</span>2016年1月10日</p>
-			          <p class="info"><span>XX:</span>内容:栉风沐雨谋发展，团结奋斗谱新篇。华东交通大学秉承“日新其德，止于至善</p>
-			        </div>
-	        	</a>
-	      	</div> 
-	      	<div class="col-md-4 col-sm-6 col-xs-12 scale work_1">
-	        	<a href="">
-		        		<div class="pic hidden-xs"><img src="img/hezuo1.jpg" /></div>
-			        <div class="wrapper">
-			          <h2 class="overflow">产品设计</h2>
-			          <p class="district"><span>地区:</span>北京</p>
-			          <p class="time"><span>时间:</span>2016年1月10日</p>
-			          <p class="info"><span>XX:</span>内容:栉风沐雨谋发展，团结奋斗谱新篇。华东交通大学秉承“日新其德，止于至善</p>
+			          <h2 class="overflow">交大活动</h2>
+			          <p class="time"><span>时间:</span>4月12日 周二</p>
+			          <p class="info"><span>内容:</span>学校占地面积近3000亩，依山傍水、临江怀湖，集江河湖山于一体，树木葱茏、鸟语花香学校占地面积近3000亩，依山傍水、临江怀湖，</p>
 			        </div>
 	        	</a>
 	      	</div>
-	      	<div class="col-md-4 col-sm-6 col-xs-12 scale work_1">
+	      	<div class="col-md-3 col-sm-6 col-xs-12 scale">
 	        	<a href="">
-		        		<div class="pic hidden-xs"><img src="img/hezuo2.jpg" /></div>
+	        		<div class="pic"><img src="img/hezuo5.jpg" /></div>
 			        <div class="wrapper">
-			          <h2 class="overflow">技术交流</h2>
-			          <p class="district"><span>地区:</span>北京</p>
-			          <p class="time"><span>时间:</span>2016年1月10日</p>
-			          <p class="info"><span>XX:</span>内容:栉风沐雨谋发展，团结奋斗谱新篇。华东交通大学秉承“日新其德，止于至善</p>
+			          <h2 class="overflow">交大活动</h2>
+			          <p class="time"><span>时间:</span>4月12日 周二</p>
+			          <p class="info"><span>内容:</span>学校占地面积近3000亩，依山傍水、临江怀湖，集江河湖山于一体，树木葱茏、鸟语花香学校占地面积近3000亩，依山傍水、临江怀湖，</p>
 			        </div>
 	        	</a>
 	      	</div>
-        
+	      	<div class="col-md-3 col-sm-6 col-xs-12 scale">
+	        	<a href="">
+	        		<div class="pic"><img src="img/2.jpg" /></div>
+			        <div class="wrapper">
+			         <h2 class="overflow">交大活动</h2>
+			          <p class="time"><span>时间:</span>4月12日 周二</p>
+			          <p class="info"><span>内容:</span>学校占地面积近3000亩，依山傍水、临江怀湖，集江河湖山于一体，树木葱茏、鸟语花香学校占地面积近3000亩，依山傍水、临江怀湖，</p>
+			        </div>
+	        	</a>
+	      	</div>
+        	<div class="col-md-3 col-sm-6 col-xs-12 scale">
+	        	<a href="">
+	        		<div class="pic"><img src="img/hezuo2.jpg" /></div>
+			        <div class="wrapper">
+			         <h2 class="overflow">交大活动</h2>
+			          <p class="time"><span>时间:</span>4月12日 周二</p>
+			          <p class="info"><span>内容:</span>学校占地面积近3000亩，依山傍水、临江怀湖，集江河湖山于一体，树木葱茏、鸟语花香学校占地面积近3000亩，依山傍水、临江怀湖，香</p>
+			        </div>
+	        	</a>
+	      	</div>
         </div>
     </div>
 			

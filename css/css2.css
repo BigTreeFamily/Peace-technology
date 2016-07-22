@@ -53,12 +53,13 @@ header .siteinfo i {
   height: 33px;
 }
 header .siteinfo h2 {
-  font-size: 24px;
+  font-size: 22px;
   color: #000000;
-  font-weight: bold;
+  font-weight: bolder;
   margin: 0;
 }
 header .hd-right {
+  margin-top: 10px;
   float: right;
 }
 header #info {
@@ -82,8 +83,8 @@ header #info i {
   height: 35px;
   float: left;
   color: #000000;
-  font-weight: 400;
-  font-size: 20px;
+  /*font-weight: bolder;*/
+  font-size: 15px;
   line-height: 35px;
 }
 header .searchInput {
@@ -159,13 +160,13 @@ menu .dropdown {
   text-align: center;
   font-family: "微软雅黑";
   font-size: 1.8em;
-  font-weight: bold;
+/*  font-weight: bold;*/
   color: #3e3e40;
   margin-right: 2.66667%;
 }
 .row12 {
   background: lightgrey;
-  font-size: 1.8em;
+  font-size: 1.4em;
   height: 62px;
   line-height: 62px;
   color: #3e3e40;
@@ -195,16 +196,16 @@ menu .dropdown {
 }
 .link-more {
   font-family: "微软雅黑";
-  font-size: 1.5em;
+  font-size: 1em;
   color: #3E3E40;
   line-height: 70px;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 /*container end*/
 /*footer begin*/
 footer {
   height: auto;
-  background: #3E3E40;
+  background: #337ab7;
 }
 .foot-left {
   width: 66.66667%;
@@ -255,7 +256,7 @@ footer {
   width: 40%;
   margin-left: 30%;
   color: #DFDCDC;
-  font-weight: bold;
+ /* font-weight: bold;*/
   text-align: center;
 }
 /*****首页的导航******/
@@ -265,9 +266,9 @@ nav ul li a:hover{
 }
 nav{
   background-color: #1a69c5 !important;
-  font-size: 20px;
-  font-weight: bolder;
-}
+  font-size: 18px;
+/*   font-weight: bolder;
+ */}
 .navbar {
   margin-bottom: 0;
 }
@@ -275,7 +276,7 @@ nav{
   color: #fff;
 }
 .navbar .active a {
-  background-color: #1a69c5;
+  background-color: #0C417E;
 }
 .nav > li > a {
   padding-left: 30px;
@@ -299,15 +300,15 @@ nav{
   background-position: center;
 }
 .dropdown-menu > li > a,.dropdown-menu > li > a:hover {
-    padding: 5px 50px;
+    padding: 5px 40px;
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
 }
 /*
 首页的底部部分
  */
 .row3 {
-  font-size: 20px;
+  font-size: 17px;
   text-align: center;
 }
 .row3 .links {
@@ -327,7 +328,7 @@ nav{
 .teacher a:hover {
   color: #1a69c5;
 }
-.teacher a:hover .member_photo {
+/*.teacher a:hover .member_photo {
   box-shadow: 2px 2px 10px #000;
   opacity: 1;
   transition: all 0.3s ease-in 0s;
@@ -340,16 +341,21 @@ nav{
   opacity: 0.9;
 }
 .teacher .member .member_photo img {
-  width: 120px;
-  height: 120px;
+  width:200px;
+  height: 200px;
 }
 .teacher .member .member_info {
   float: left;
-  margin: 20px;
+ /* width: 55%;*/
+ /* margin: 15px auto auto 15px;*/
+}*/
+.member p {
+    margin: 5px 0 10px 30px;
 }
 .teacher .member .member_info .member_name {
   font-size: 20px;
   font-weight: bold;
+  margin: 15px auto auto 30px;
 }
 .teacher .member .member_info .member_work {
   margin-top: 10px;
@@ -391,17 +397,32 @@ nav{
   margin: 15px;
   color: #fff;
 }
-.cooperate_wrapper h1 {
-  padding: 30px 0 0 50px;
+.cooperate_wrapper h2 {
+  padding: 20px 0 0 50px;
 }
 .cooperate_wrapper p {
-  width: 500px;
-  margin-left: 50px;
+  margin: auto 50px;
   word-break: break-all;
   color: #fff;
 }
+.cooperate_partner{
+  float: left;
+  height: 300px;
+  background-color: rgba(221, 221, 221, 0.39);
+}
+.cooperate_map{
+  float: left;
+  padding-left: 0;
+  padding-right: 0;  
+  height: 300px;
+}
+.cooperate_map img{
+  width: 100%;
+  height: 100%;
+}
 .cooperate_bg {
-  background-image: url(../img/unknow.jpg);
+  background-image: url(../img/work.jpg);
+  background-size: 100% 100%;
 }
 .cooperate .row {
   margin-bottom: 30px;
@@ -424,14 +445,13 @@ nav{
 }
 .cooperate .row .pic {
   width: 100%;
-  height: 160px;
+  height: 220px;
   overflow: hidden;
 }
 .cooperate .row .pic img {
   width: 100%;
-  height: 160px;
+  height: 100%;
   opacity: 1;
-  background-position: top middle;
 }
 .cooperate .row h2 {
   height: 20px;
@@ -440,6 +460,23 @@ nav{
   font-size: 16px;
   color: #000;
   overflow: hidden;
+}
+.cooperate .sub_title{
+  text-align: center;
+  margin:50px auto;
+}
+.cooperate .section{
+  background-color: inherit;
+}
+.new .work_1{
+  padding-left:0;
+  padding-right:0;
+  margin: 40px 0;
+}
+.news{
+  display: block;
+  margin:0 15px;
+  border: 1px solid #eee;
 }
 /*
 页面5
@@ -457,22 +494,22 @@ nav{
 .cooperate_wrapper2 p {
   color: #000;
 }
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .container {
     width: 1280px;
   }
-}
-/*班级页面*/
+} */
+/*班级概括页面*/
 .container{
 	margin-top: 0 !important;
 	padding: 0 !important;
 }
 .section{
-	margin-top: 10px;
+	margin: 20px auto 40px;
 	border: 1px solid #E6E6E6;
 	background: #FFFFFF;
 	width: 100%;
-	height: 300px;
+	height: 340px;
 	border-radius: 5px;
 	box-shadow: 1px 1px 1px 1px #EEEEEE;
 	background: #EEEEEE;
@@ -484,7 +521,7 @@ nav{
 }
 .section .classPic{
 	width: 20%;
-	height: 260px;
+	height: 300px;
 	overflow: hidden;
 	margin: 20px 2% 0 2%;
 	border-radius: 8px;
@@ -495,7 +532,7 @@ nav{
 	padding-top: 10px;
 	padding-left: 10px;
 	width: 96%;
-	height: 250px;
+	height: 290px;
 }
 .classInfo{
 	border-radius: 8px;
@@ -503,7 +540,7 @@ nav{
 	float: left;
 	width: 74%;
 	margin-top: 20px;
-	height: 260px;
+	height: 300px;
 }
 .classInfo h2{
 	margin-left:2%;
@@ -518,12 +555,169 @@ nav{
 	background: #ffffff !important;
 	margin: 5px auto;
 	margin-bottom: 5px !important;
+  padding: 8px 15px 0 0 ;
 }
-.breadcrumb ul{
-	margin-left: 12px;
-}
+/* .breadcrumb ul{
+  margin-left: 12px;
+} */
 .breadcrumb ul li{
 	float: left;
-	margin-left: 10px;
+	/* margin-left: 10px; */
 }
 /*breadcrumb end*/
+
+/*yiyuanliangzhongxin*/
+
+.middle h2{
+	font-size: 20px;
+  font-weight: bold;
+  margin: 20px 20px;
+}
+/*.center-img-back{
+	width: 100%;
+	height: 400px;
+	background: lightgrey;
+  margin-top: 15px;
+}*/
+.center-img{
+	width: 100% ;
+	position: relative;
+	height: 380px;
+	margin-bottom: 30px;
+}
+.middle-text{
+	width: 75%;
+	margin:40px 12.5%;
+	font-size: 17px;
+	text-indent: 2em;
+	line-height: 30px;
+	letter-spacing: 5px}
+	
+.middle_fuwu .breadcrumb ul li {
+    float: none;
+}
+/*fuwupingtai*/
+.text-block{
+
+	width: 80%;
+	background: lightgrey;
+	border-radius: 5px;
+	left: 10%;
+	padding-bottom: 3px;
+	position: relative;
+	margin-bottom: 30px;
+}
+.text-q,.text-a{
+	width: 90%;
+	top:20px;
+	left: 5%;
+	border-radius: 5px;
+	position: relative;
+	background: white;
+	font-size: 20px;
+	padding-left:10px;
+	padding-right:10px ;
+}
+.text-q,.text-a span{
+	font-weight: bold;
+}
+.text-q{
+	
+}
+.text-a{
+
+	margin-top: 20px;
+	margin-bottom:30px ;
+}
+.link-service{
+	color: black;
+	line-height: 20px;
+	height: 20px;
+}
+.forlogin{
+	width: 95%;
+	text-align: right;
+}
+/**/
+.info{
+  margin-bottom: 40px;
+}
+.carousel-caption {
+    top: 15%;
+    padding-bottom: normal; 
+}
+.carousel-caption p {
+    margin: 25px 0 25px;
+}
+.xinwen .cooperate_wrapper{
+  margin-bottom: 80px;
+}
+
+.xinwen h1{
+  text-align: center;
+  margin:20px auto 20px; 
+}
+.xinwen .work_1 .pic{
+  height: 350px;
+  background-size: cover;
+}
+.xinwen .work_1 .wrapper {
+     height: auto; 
+}
+/*wwwwwwww*/
+.thumbnail {
+  border:0;
+}
+.thumbnail p{
+ text-align: center;
+}
+/*学生*/
+.student .cooperate_map{
+  float: left;
+  padding-left: 0;
+  padding-right: 0;  
+  height: auto;
+}
+.student .cooperate_map img{
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+  margin: 40px 0 0 0;
+}
+.student .cooperate_partner {
+    background-color: inherit;
+}
+.student .cooperate_wrapper2 {
+    color: #000;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+/*学术&&专家*/
+.gray{
+  background-color: rgba(221, 221, 221, 0.39);
+  color: #000;
+}
+.gray .row,.white .row{
+  padding: 50px;
+}
+.gray .row img,.white .row img{
+  width: 100%;
+}
+.gray .info,.white .info,.white h2,.gray h2{
+  color:#000;
+}
+.container_zhuanjia img{
+  border-radius: 100%;
+}
+.shadow{
+  margin-top: 40px;
+}
+.shadow .pic{
+  opacity: 0.9;
+  margin-top: 10px;
+}
+.shadow:hover{
+box-shadow: 0 0 10px #000;
+opacity: 1;
+transition: all 0.3s ease-in 0s;
+}
